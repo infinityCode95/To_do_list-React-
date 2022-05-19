@@ -1,0 +1,13 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.app {
+     margin: 0 auto;
+     margin-top: 60px;
+     max-width: 800px;
+     border-radius: 10px;
+     color: #ebe536;     
+}

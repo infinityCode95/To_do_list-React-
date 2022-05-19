@@ -1,0 +1,16 @@
+.btn__wrapper {
+     margin: 15px 0px 0px 0px;
+     display: flex;
+     gap: 0px 5px;
+}
+
+.btn {
+     padding: 7px;
+     border-radius: 5px;
+     font-size: 15px;
+}
+
+.btn__active {
+     background-color: #ebe536;
+     color: black;
+}

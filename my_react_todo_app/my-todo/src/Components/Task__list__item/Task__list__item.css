@@ -1,0 +1,41 @@
+.item__wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 0px;
+     border-bottom: 1px solid white;
+}
+
+.item__wrapper:last-child {
+     border-bottom: none;
+}
+
+.item__title {
+     font-size: 16px;
+     font-weight: 600;
+     cursor: pointer;
+}
+
+.item__btns {
+     display: flex;
+}
+
+
+.item__btn {
+     width: 40px;
+     height: 40px;
+     font-size: 17px;
+     border: none;
+     cursor: pointer;
+     background-color: #1D2C3B;
+     color: #ebe536;        
+}
+
+.item.active .item__title, .item.active .item__btn {
+     color: #3be510;
+}
+
+.btn__trash {
+}
+
+
